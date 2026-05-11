@@ -6,3 +6,4 @@ Repositorio donde practico React paso a paso.
 
 - 01-jsx-mi-perfil
 - 02-componentes-basicos
+- 03-props-basicos
