@@ -4,4 +4,5 @@ Repositorio donde practico React paso a paso.
 
 ## Contenido
 
-- 01 JSX Mi Perfil
+- 01-jsx-mi-perfil
+- 02-componentes-basicos
