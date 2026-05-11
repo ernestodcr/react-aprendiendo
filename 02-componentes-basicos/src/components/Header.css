@@ -1,0 +1,16 @@
+header {
+  background: linear-gradient(135deg, #646cff 0%, #535bf2 100%);
+  color: white;
+  padding: clamp(1rem, 5vw, 2.5rem);
+  text-align: center;
+}
+
+header h1 {
+  font-size: clamp(1.2rem, 4vw, 2rem);
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 1.5rem 1rem;
+  }
+}
