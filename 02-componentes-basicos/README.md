@@ -3,7 +3,7 @@
 Segundo proyecto de React donde practico la creación y uso de componentes.
 
 ## Demo
-https://react-aprendiendo-7dfx.vercel.app/
+👉 https://react-aprendiendo-7dfx.vercel.app/
 
 ## Objetivos
 - Crear componentes funcionales
