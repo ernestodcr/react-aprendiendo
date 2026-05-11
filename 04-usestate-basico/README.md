@@ -1,16 +1,38 @@
-# React + Vite
+# 04 useState - Contador avanzado
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cuarto proyecto de React donde practico el uso de useState para manejar estado dinámico en una aplicación.
 
-Currently, two official plugins are available:
+## Demo
+👉 https://react-aprendiendo-sec2.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objetivos
+- Entender el hook useState
+- Modificar estado en tiempo real
+- Crear interacciones con botones
+- Aplicar lógica condicional en el renderizado
 
-## React Compiler
+## Funcionalidades
+- Contador que aumenta y disminuye
+- Botón de reset
+- Incrementos personalizados (+5 / -5)
+- Duplicar valor del contador
+- Bloqueo de valores negativos
+- Cambio de color según el valor del contador
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Conceptos practicados
+- useState
+- Estado en React
+- Renderizado dinámico
+- Funciones en eventos (onClick)
+- Actualización de estado con función previa (prev)
 
-## Expanding the ESLint configuration
+## Estructura
+- App.jsx (componente principal)
+- Counter.jsx (lógica del contador)
+- Counter.css (estilos)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías
+- React
+- Vite
+- JavaScript
+- CSS
