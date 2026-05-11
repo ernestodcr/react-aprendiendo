@@ -1,16 +1,31 @@
-# React + Vite
+# 03 Props Básicos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tercer proyecto de React donde practico el uso de props para pasar datos entre componentes.
 
-Currently, two official plugins are available:
+## Demo
+👉 https://react-aprendiendo-fpnx.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objetivos
+- Entender cómo funcionan las props
+- Pasar datos desde el componente padre al hijo
+- Reutilizar un mismo componente con diferentes datos
+- Renderizar información dinámica
 
-## React Compiler
+## Conceptos practicados
+- Props
+- Destructuring de props
+- Reutilización de componentes
+- Renderizado de listas con datos simples
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Estructura
+- App.jsx (componente padre)
+- Card.jsx (componente hijo)
 
-## Expanding the ESLint configuration
+## Ejemplo de uso
+Se reutiliza el componente `Card` varias veces pasando distintos nombres, edades y ciudades.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías
+- React
+- Vite
+- JavaScript
+- CSS
