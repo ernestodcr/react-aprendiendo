@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 24px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 320px;
+}
+
+.title {
+  color: #636e72;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 0;
+}
+
+.number {
+  font-size: 5rem;
+  font-weight: 800;
+  margin: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn:active { transform: scale(0.9); }
+
+.btn-add { background-color: #00b894; }
+.btn-sub { background-color: #d63031; }
+
+.btn-reset {
+  margin-top: 1.5rem;
+  background: none;
+  border: 1px solid #dfe6e9;
+  padding: 8px 20px;
+  border-radius: 10px;
+  color: #b2bec3;
+  cursor: pointer;
+  width: 100%;
+}
+
+@media (max-width: 350px) {
+  .card { padding: 1.5rem; }
+  .number { font-size: 4rem; }
+  .btn { width: 60px; height: 60px; }
+}
