@@ -3,7 +3,7 @@
 Proyecto de React donde practico la gestión de listas dinámicas usando useState.
 
 ## Demo
-👉 https://react-aprendiendo-sec2.vercel.app/
+👉 https://react-aprendiendo-y25f.vercel.app/
 
 ## Objetivos
 - Trabajar con arrays en el estado
