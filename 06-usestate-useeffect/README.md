@@ -1,16 +1,35 @@
-# React + Vite
+# 06 useState + useEffect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto de React donde practico el uso conjunto de useState y useEffect para reaccionar automáticamente a cambios en el estado.
 
-Currently, two official plugins are available:
+## Demo
+👉 https://react-aprendiendo-aemw.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objetivos
+- Entender cómo funciona useEffect
+- Detectar cambios en el estado
+- Ejecutar efectos secundarios automáticamente
+- Actualizar dinámicamente información fuera del componente
 
-## React Compiler
+## Funcionalidades
+- Contador dinámico
+- Incrementar y disminuir valor
+- Cambio de color según el valor del contador
+- Actualización automática del título de la pestaña del navegador
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Conceptos practicados
+- useState
+- useEffect
+- Dependencias en useEffect
+- Renderizado dinámico
+- Eventos con onClick
 
-## Expanding the ESLint configuration
+## Estructura
+- App.jsx
+- Contador.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías
+- React
+- Vite
+- JavaScript
+- CSS
