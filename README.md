@@ -9,3 +9,4 @@ Repositorio donde practico React paso a paso.
 - 03-props-basicos
 - 04-usestate-basico
 - 05-todo-list-basico
+- 06-usestate-useeffect
