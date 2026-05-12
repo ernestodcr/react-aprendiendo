@@ -1,16 +1,21 @@
-# React + Vite
+# 07-lista-empleados-api
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto en React que muestra una lista de empleados obtenida desde una API externa.
 
-Currently, two official plugins are available:
+## 🖥️ Demo
+👉 https://react-aprendiendo-q9tt.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧠 Descripción
 
-## React Compiler
+Este proyecto es un ejercicio básico de React donde se aprende a:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Usar `useEffect` para cargar datos al iniciar la aplicación
+- Usar `fetch` para consumir una API
+- Guardar datos con `useState`
+- Renderizar listas con `.map()`
+- Usar `key` en listas
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 API utilizada
+
+https://jsonplaceholder.typicode.com/users
