@@ -1,16 +1,40 @@
-# React + Vite
+# 05 Todo List Básico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto de React donde practico la gestión de listas dinámicas usando useState.
 
-Currently, two official plugins are available:
+## Demo
+👉 https://react-aprendiendo-sec2.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objetivos
+- Trabajar con arrays en el estado
+- Añadir elementos dinámicamente
+- Eliminar elementos de una lista
+- Practicar formularios y eventos
+- Renderizar listas usando map()
 
-## React Compiler
+## Funcionalidades
+- Añadir tareas mediante un formulario
+- Mostrar tareas en pantalla
+- Eliminar tareas individualmente
+- Validar tareas vacías
+- Actualización automática de la interfaz
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Conceptos practicados
+- useState
+- Props
+- Eventos en React
+- Formularios controlados
+- map()
+- filter()
+- Renderizado dinámico
 
-## Expanding the ESLint configuration
+## Estructura
+- App.jsx
+- Formulario.jsx
+- Listas.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías
+- React
+- Vite
+- JavaScript
+- CSS
