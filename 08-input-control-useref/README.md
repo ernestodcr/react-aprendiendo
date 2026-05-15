@@ -1,16 +1,34 @@
-# React + Vite
+# 08-input-control-useref
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto en React que utiliza el hook `useRef` para manipular directamente un input sin necesidad de `useState`.
 
-Currently, two official plugins are available:
+## 🖥️ Demo
+👉 https://react-aprendiendo-cqvj.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧠 Descripción
 
-## React Compiler
+Este proyecto es un ejercicio práctico para aprender el uso de `useRef` en React y cómo permite acceder y modificar elementos del DOM directamente.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+En este caso, se trabaja con un input de texto controlado mediante referencias.
 
-## Expanding the ESLint configuration
+## 🎯 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Dar foco al input con un botón (`focus`)
+- Escribir texto directamente en el input usando `useRef`
+- Borrar el contenido del input
+- Mostrar el valor actual en consola
+- Manipulación directa del DOM sin `useState`
+
+## ⚙️ Conceptos aprendidos
+
+- Hook `useRef`
+- Acceso al DOM con `ref`
+- Uso de `ref.current`
+- Diferencia entre `useRef` y `useState`
+- Métodos del DOM como `.value` y `.focus()`
+
+## 🧪 Tecnologías usadas
+
+- React
+- JavaScript (ES6+)
+- Vite (si aplica)
